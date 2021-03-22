@@ -1,0 +1,339 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Ciliberto-J-Cell-Biol-2003-morphogenesis-checkpoint-discrete.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 0 plot(s)
+
+Successful translation: SED-ML file simulation_1.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='simulation_1') is compatible, solver match found in ontology: 'KISAO:0000029' matched to StochGibson
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp7998778413260831367.xml
+java.lang.RuntimeException: Error constructing a new simulation context:
+ R1, R2, R3, R4, R5, R7, R8, R9, R11, R12, R13, R14, R15, R16, R18, R19, R20, R23, R24, R25, R26, R27, R28, R29, R30, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52 are unable to be intepreted to mass action form. 
+Therefore,they are not suitable for stochastic application.
+
+Reactions described by mass action law(all) or General law(certain forms),
+or fluxes described by general desity function(certain forms) and general
+permeability(certain forms) can be interpreted to mass action form.
+
+All rate laws that include electric current are not suitable for stochastic application.
+
+ detailed error:
+
+ R1 error: Failed to intepret kinetic rate for reaction 'R1' as mass action.
+     Problem in forward rate '(kdiss / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R2 error: Failed to intepret kinetic rate for reaction 'R2' as mass action.
+     Mathmatical form incompatible with mass action.
+ R3 error: Failed to intepret kinetic rate for reaction 'R3' as mass action.
+     Mathmatical form incompatible with mass action.
+ R4 error: Failed to intepret kinetic rate for reaction 'R4' as mass action.
+     Problem in forward rate '(((Swe1M * kswe_doubleprime) + (Swe1 * kswe_prime) + (PSwe1 * kswe_tripleprime)) / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R5 error: Failed to intepret kinetic rate for reaction 'R5' as mass action.
+     Problem in forward rate '(kass / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R7 error: Failed to intepret kinetic rate for reaction 'R7' as mass action.
+     Mathmatical form incompatible with mass action.
+ R8 error: Failed to intepret kinetic rate for reaction 'R8' as mass action.
+     Problem in forward rate '(((Swe1M * kswe_doubleprime) + (Swe1 * kswe_prime) + (PSwe1 * kswe_tripleprime)) / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R9 error: Failed to intepret kinetic rate for reaction 'R9' as mass action.
+     Mathmatical form incompatible with mass action.
+ R11 error: Failed to intepret kinetic rate for reaction 'R11' as mass action.
+     Mathmatical form incompatible with mass action.
+ R12 error: Failed to intepret kinetic rate for reaction 'R12' as mass action.
+     Mathmatical form incompatible with mass action.
+ R13 error: Failed to intepret kinetic rate for reaction 'R13' as mass action.
+     Mathmatical form incompatible with mass action.
+ R14 error: Failed to intepret kinetic rate for reaction 'R14' as mass action.
+     Mathmatical form incompatible with mass action.
+ R15 error: Failed to intepret kinetic rate for reaction 'R15' as mass action.
+     Mathmatical form incompatible with mass action.
+ R16 error: Failed to intepret kinetic rate for reaction 'R16' as mass action.
+     Problem in forward rate '(kdcdc20 / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R18 error: Failed to intepret kinetic rate for reaction 'R18' as mass action.
+     Mathmatical form incompatible with mass action.
+ R19 error: Failed to intepret kinetic rate for reaction 'R19' as mass action.
+     Mathmatical form incompatible with mass action.
+ R20 error: Failed to intepret kinetic rate for reaction 'R20' as mass action.
+     Mathmatical form incompatible with mass action.
+ R23 error: Failed to intepret kinetic rate for reaction 'R23' as mass action.
+     Mathmatical form incompatible with mass action.
+ R24 error: Failed to intepret kinetic rate for reaction 'R24' as mass action.
+     Mathmatical form incompatible with mass action.
+ R25 error: Failed to intepret kinetic rate for reaction 'R25' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R26 error: Failed to intepret kinetic rate for reaction 'R26' as mass action.
+     Problem in forward rate '(khsl1r / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R27 error: Failed to intepret kinetic rate for reaction 'R27' as mass action.
+     Problem in forward rate '(khsl1r / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R28 error: Failed to intepret kinetic rate for reaction 'R28' as mass action.
+     Mathmatical form incompatible with mass action.
+ R29 error: Failed to intepret kinetic rate for reaction 'R29' as mass action.
+     Mathmatical form incompatible with mass action.
+ R30 error: Failed to intepret kinetic rate for reaction 'R30' as mass action.
+     Problem in forward rate '(ksswe / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R32 error: Failed to intepret kinetic rate for reaction 'R32' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R33 error: Failed to intepret kinetic rate for reaction 'R33' as mass action.
+     Problem in forward rate '(kdiss / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R34 error: Failed to intepret kinetic rate for reaction 'R34' as mass action.
+     Mathmatical form incompatible with mass action.
+ R35 error: Failed to intepret kinetic rate for reaction 'R35' as mass action.
+     Mathmatical form incompatible with mass action.
+ R36 error: Failed to intepret kinetic rate for reaction 'R36' as mass action.
+     Problem in forward rate '(kass / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R37 error: Failed to intepret kinetic rate for reaction 'R37' as mass action.
+     Mathmatical form incompatible with mass action.
+ R38 error: Failed to intepret kinetic rate for reaction 'R38' as mass action.
+     Mathmatical form incompatible with mass action.
+ R39 error: Failed to intepret kinetic rate for reaction 'R39' as mass action.
+     Mathmatical form incompatible with mass action.
+ R40 error: Failed to intepret kinetic rate for reaction 'R40' as mass action.
+     Mathmatical form incompatible with mass action.
+ R41 error: Failed to intepret kinetic rate for reaction 'R41' as mass action.
+     Problem in forward rate '(kdbud / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R42 error: Failed to intepret kinetic rate for reaction 'R42' as mass action.
+     Problem in forward rate '(ksbud / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R43 error: Failed to intepret kinetic rate for reaction 'R43' as mass action.
+     Mathmatical form incompatible with mass action.
+ R44 error: Failed to intepret kinetic rate for reaction 'R44' as mass action.
+     Problem in forward rate '(kssic / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R45 error: Failed to intepret kinetic rate for reaction 'R45' as mass action.
+     Problem in forward rate '(kdcln / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R46 error: Failed to intepret kinetic rate for reaction 'R46' as mass action.
+     Problem in forward rate '(kscln / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R47 error: Failed to intepret kinetic rate for reaction 'R47' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R48 error: Failed to intepret kinetic rate for reaction 'R48' as mass action.
+     Problem in forward rate '(kdcdc20 / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R49 error: Failed to intepret kinetic rate for reaction 'R49' as mass action.
+     Mathmatical form incompatible with mass action.
+ R50 error: Failed to intepret kinetic rate for reaction 'R50' as mass action.
+     Problem in forward rate '(kdswe_doubleprime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R51 error: Failed to intepret kinetic rate for reaction 'R51' as mass action.
+     Mathmatical form incompatible with mass action.
+ R52 error: Failed to intepret kinetic rate for reaction 'R52' as mass action.
+     Problem in reverse rate '( - mu / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+
+	at cbit.vcell.mapping.SimulationContext.<init>(SimulationContext.java:444)
+	at cbit.vcell.mapping.SimulationContext.copySimulationContext(SimulationContext.java:3650)
+	at cbit.vcell.xml.XmlHelper.sedmlToBioModel(XmlHelper.java:698)
+	at org.vcell.cli.SolverHandler.simulateAllTasks(SolverHandler.java:64)
+	at org.vcell.cli.CLIStandalone.singleExec(CLIStandalone.java:135)
+	at org.vcell.cli.CLIStandalone.main(CLIStandalone.java:43)
+Unable to Parse SED-ML into Bio-Model, failed with err: Unable to initialize bioModel for the given selection
+Error constructing a new simulation context:
+ R1, R2, R3, R4, R5, R7, R8, R9, R11, R12, R13, R14, R15, R16, R18, R19, R20, R23, R24, R25, R26, R27, R28, R29, R30, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52 are unable to be intepreted to mass action form. 
+Therefore,they are not suitable for stochastic application.
+
+Reactions described by mass action law(all) or General law(certain forms),
+or fluxes described by general desity function(certain forms) and general
+permeability(certain forms) can be interpreted to mass action form.
+
+All rate laws that include electric current are not suitable for stochastic application.
+
+ detailed error:
+
+ R1 error: Failed to intepret kinetic rate for reaction 'R1' as mass action.
+     Problem in forward rate '(kdiss / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R2 error: Failed to intepret kinetic rate for reaction 'R2' as mass action.
+     Mathmatical form incompatible with mass action.
+ R3 error: Failed to intepret kinetic rate for reaction 'R3' as mass action.
+     Mathmatical form incompatible with mass action.
+ R4 error: Failed to intepret kinetic rate for reaction 'R4' as mass action.
+     Problem in forward rate '(((Swe1M * kswe_doubleprime) + (Swe1 * kswe_prime) + (PSwe1 * kswe_tripleprime)) / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R5 error: Failed to intepret kinetic rate for reaction 'R5' as mass action.
+     Problem in forward rate '(kass / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R7 error: Failed to intepret kinetic rate for reaction 'R7' as mass action.
+     Mathmatical form incompatible with mass action.
+ R8 error: Failed to intepret kinetic rate for reaction 'R8' as mass action.
+     Problem in forward rate '(((Swe1M * kswe_doubleprime) + (Swe1 * kswe_prime) + (PSwe1 * kswe_tripleprime)) / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R9 error: Failed to intepret kinetic rate for reaction 'R9' as mass action.
+     Mathmatical form incompatible with mass action.
+ R11 error: Failed to intepret kinetic rate for reaction 'R11' as mass action.
+     Mathmatical form incompatible with mass action.
+ R12 error: Failed to intepret kinetic rate for reaction 'R12' as mass action.
+     Mathmatical form incompatible with mass action.
+ R13 error: Failed to intepret kinetic rate for reaction 'R13' as mass action.
+     Mathmatical form incompatible with mass action.
+ R14 error: Failed to intepret kinetic rate for reaction 'R14' as mass action.
+     Mathmatical form incompatible with mass action.
+ R15 error: Failed to intepret kinetic rate for reaction 'R15' as mass action.
+     Mathmatical form incompatible with mass action.
+ R16 error: Failed to intepret kinetic rate for reaction 'R16' as mass action.
+     Problem in forward rate '(kdcdc20 / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R18 error: Failed to intepret kinetic rate for reaction 'R18' as mass action.
+     Mathmatical form incompatible with mass action.
+ R19 error: Failed to intepret kinetic rate for reaction 'R19' as mass action.
+     Mathmatical form incompatible with mass action.
+ R20 error: Failed to intepret kinetic rate for reaction 'R20' as mass action.
+     Mathmatical form incompatible with mass action.
+ R23 error: Failed to intepret kinetic rate for reaction 'R23' as mass action.
+     Mathmatical form incompatible with mass action.
+ R24 error: Failed to intepret kinetic rate for reaction 'R24' as mass action.
+     Mathmatical form incompatible with mass action.
+ R25 error: Failed to intepret kinetic rate for reaction 'R25' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R26 error: Failed to intepret kinetic rate for reaction 'R26' as mass action.
+     Problem in forward rate '(khsl1r / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R27 error: Failed to intepret kinetic rate for reaction 'R27' as mass action.
+     Problem in forward rate '(khsl1r / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R28 error: Failed to intepret kinetic rate for reaction 'R28' as mass action.
+     Mathmatical form incompatible with mass action.
+ R29 error: Failed to intepret kinetic rate for reaction 'R29' as mass action.
+     Mathmatical form incompatible with mass action.
+ R30 error: Failed to intepret kinetic rate for reaction 'R30' as mass action.
+     Problem in forward rate '(ksswe / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R32 error: Failed to intepret kinetic rate for reaction 'R32' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R33 error: Failed to intepret kinetic rate for reaction 'R33' as mass action.
+     Problem in forward rate '(kdiss / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R34 error: Failed to intepret kinetic rate for reaction 'R34' as mass action.
+     Mathmatical form incompatible with mass action.
+ R35 error: Failed to intepret kinetic rate for reaction 'R35' as mass action.
+     Mathmatical form incompatible with mass action.
+ R36 error: Failed to intepret kinetic rate for reaction 'R36' as mass action.
+     Problem in forward rate '(kass / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R37 error: Failed to intepret kinetic rate for reaction 'R37' as mass action.
+     Mathmatical form incompatible with mass action.
+ R38 error: Failed to intepret kinetic rate for reaction 'R38' as mass action.
+     Mathmatical form incompatible with mass action.
+ R39 error: Failed to intepret kinetic rate for reaction 'R39' as mass action.
+     Mathmatical form incompatible with mass action.
+ R40 error: Failed to intepret kinetic rate for reaction 'R40' as mass action.
+     Mathmatical form incompatible with mass action.
+ R41 error: Failed to intepret kinetic rate for reaction 'R41' as mass action.
+     Problem in forward rate '(kdbud / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R42 error: Failed to intepret kinetic rate for reaction 'R42' as mass action.
+     Problem in forward rate '(ksbud / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R43 error: Failed to intepret kinetic rate for reaction 'R43' as mass action.
+     Mathmatical form incompatible with mass action.
+ R44 error: Failed to intepret kinetic rate for reaction 'R44' as mass action.
+     Problem in forward rate '(kssic / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R45 error: Failed to intepret kinetic rate for reaction 'R45' as mass action.
+     Problem in forward rate '(kdcln / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R46 error: Failed to intepret kinetic rate for reaction 'R46' as mass action.
+     Problem in forward rate '(kscln / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R47 error: Failed to intepret kinetic rate for reaction 'R47' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R48 error: Failed to intepret kinetic rate for reaction 'R48' as mass action.
+     Problem in forward rate '(kdcdc20 / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R49 error: Failed to intepret kinetic rate for reaction 'R49' as mass action.
+     Mathmatical form incompatible with mass action.
+ R50 error: Failed to intepret kinetic rate for reaction 'R50' as mass action.
+     Problem in forward rate '(kdswe_doubleprime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R51 error: Failed to intepret kinetic rate for reaction 'R51' as mass action.
+     Mathmatical form incompatible with mass action.
+ R52 error: Failed to intepret kinetic rate for reaction 'R52' as mass action.
+     Problem in reverse rate '( - mu / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+
+Unable to initialize bioModel for the given selection
+Error constructing a new simulation context:
+ R1, R2, R3, R4, R5, R7, R8, R9, R11, R12, R13, R14, R15, R16, R18, R19, R20, R23, R24, R25, R26, R27, R28, R29, R30, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R50, R51, R52 are unable to be intepreted to mass action form. 
+Therefore,they are not suitable for stochastic application.
+
+Reactions described by mass action law(all) or General law(certain forms),
+or fluxes described by general desity function(certain forms) and general
+permeability(certain forms) can be interpreted to mass action form.
+
+All rate laws that include electric current are not suitable for stochastic application.
+
+ detailed error:
+
+ R1 error: Failed to intepret kinetic rate for reaction 'R1' as mass action.
+     Problem in forward rate '(kdiss / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R2 error: Failed to intepret kinetic rate for reaction 'R2' as mass action.
+     Mathmatical form incompatible with mass action.
+ R3 error: Failed to intepret kinetic rate for reaction 'R3' as mass action.
+     Mathmatical form incompatible with mass action.
+ R4 error: Failed to intepret kinetic rate for reaction 'R4' as mass action.
+     Problem in forward rate '(((Swe1M * kswe_doubleprime) + (Swe1 * kswe_prime) + (PSwe1 * kswe_tripleprime)) / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R5 error: Failed to intepret kinetic rate for reaction 'R5' as mass action.
+     Problem in forward rate '(kass / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R7 error: Failed to intepret kinetic rate for reaction 'R7' as mass action.
+     Mathmatical form incompatible with mass action.
+ R8 error: Failed to intepret kinetic rate for reaction 'R8' as mass action.
+     Problem in forward rate '(((Swe1M * kswe_doubleprime) + (Swe1 * kswe_prime) + (PSwe1 * kswe_tripleprime)) / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R9 error: Failed to intepret kinetic rate for reaction 'R9' as mass action.
+     Mathmatical form incompatible with mass action.
+ R11 error: Failed to intepret kinetic rate for reaction 'R11' as mass action.
+     Mathmatical form incompatible with mass action.
+ R12 error: Failed to intepret kinetic rate for reaction 'R12' as mass action.
+     Mathmatical form incompatible with mass action.
+ R13 error: Failed to intepret kinetic rate for reaction 'R13' as mass action.
+     Mathmatical form incompatible with mass action.
+ R14 error: Failed to intepret kinetic rate for reaction 'R14' as mass action.
+     Mathmatical form incompatible with mass action.
+ R15 error: Failed to intepret kinetic rate for reaction 'R15' as mass action.
+     Mathmatical form incompatible with mass action.
+ R16 error: Failed to intepret kinetic rate for reaction 'R16' as mass action.
+     Problem in forward rate '(kdcdc20 / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R18 error: Failed to intepret kinetic rate for reaction 'R18' as mass action.
+     Mathmatical form incompatible with mass action.
+ R19 error: Failed to intepret kinetic rate for reaction 'R19' as mass action.
+     Mathmatical form incompatible with mass action.
+ R20 error: Failed to intepret kinetic rate for reaction 'R20' as mass action.
+     Mathmatical form incompatible with mass action.
+ R23 error: Failed to intepret kinetic rate for reaction 'R23' as mass action.
+     Mathmatical form incompatible with mass action.
+ R24 error: Failed to intepret kinetic rate for reaction 'R24' as mass action.
+     Mathmatical form incompatible with mass action.
+ R25 error: Failed to intepret kinetic rate for reaction 'R25' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R26 error: Failed to intepret kinetic rate for reaction 'R26' as mass action.
+     Problem in forward rate '(khsl1r / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R27 error: Failed to intepret kinetic rate for reaction 'R27' as mass action.
+     Problem in forward rate '(khsl1r / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R28 error: Failed to intepret kinetic rate for reaction 'R28' as mass action.
+     Mathmatical form incompatible with mass action.
+ R29 error: Failed to intepret kinetic rate for reaction 'R29' as mass action.
+     Mathmatical form incompatible with mass action.
+ R30 error: Failed to intepret kinetic rate for reaction 'R30' as mass action.
+     Problem in forward rate '(ksswe / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R32 error: Failed to intepret kinetic rate for reaction 'R32' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R33 error: Failed to intepret kinetic rate for reaction 'R33' as mass action.
+     Problem in forward rate '(kdiss / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R34 error: Failed to intepret kinetic rate for reaction 'R34' as mass action.
+     Mathmatical form incompatible with mass action.
+ R35 error: Failed to intepret kinetic rate for reaction 'R35' as mass action.
+     Mathmatical form incompatible with mass action.
+ R36 error: Failed to intepret kinetic rate for reaction 'R36' as mass action.
+     Problem in forward rate '(kass / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R37 error: Failed to intepret kinetic rate for reaction 'R37' as mass action.
+     Mathmatical form incompatible with mass action.
+ R38 error: Failed to intepret kinetic rate for reaction 'R38' as mass action.
+     Mathmatical form incompatible with mass action.
+ R39 error: Failed to intepret kinetic rate for reaction 'R39' as mass action.
+     Mathmatical form incompatible with mass action.
+ R40 error: Failed to intepret kinetic rate for reaction 'R40' as mass action.
+     Mathmatical form incompatible with mass action.
+ R41 error: Failed to intepret kinetic rate for reaction 'R41' as mass action.
+     Problem in forward rate '(kdbud / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R42 error: Failed to intepret kinetic rate for reaction 'R42' as mass action.
+     Problem in forward rate '(ksbud / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R43 error: Failed to intepret kinetic rate for reaction 'R43' as mass action.
+     Mathmatical form incompatible with mass action.
+ R44 error: Failed to intepret kinetic rate for reaction 'R44' as mass action.
+     Problem in forward rate '(kssic / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R45 error: Failed to intepret kinetic rate for reaction 'R45' as mass action.
+     Problem in forward rate '(kdcln / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R46 error: Failed to intepret kinetic rate for reaction 'R46' as mass action.
+     Problem in forward rate '(kscln / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R47 error: Failed to intepret kinetic rate for reaction 'R47' as mass action.
+     Problem in forward rate '(kdswe_prime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R48 error: Failed to intepret kinetic rate for reaction 'R48' as mass action.
+     Problem in forward rate '(kdcdc20 / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R49 error: Failed to intepret kinetic rate for reaction 'R49' as mass action.
+     Mathmatical form incompatible with mass action.
+ R50 error: Failed to intepret kinetic rate for reaction 'R50' as mass action.
+     Problem in forward rate '(kdswe_doubleprime / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+ R51 error: Failed to intepret kinetic rate for reaction 'R51' as mass action.
+     Mathmatical form incompatible with mass action.
+ R52 error: Failed to intepret kinetic rate for reaction 'R52' as mass action.
+     Problem in reverse rate '( - mu / compartment)', Symbol 'compartment' cannot be evaluated as a constant.
+
+Process finished with exit code 1

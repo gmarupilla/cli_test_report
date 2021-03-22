@@ -1,0 +1,32 @@
+sedDocuments:
+  simulation_1.sedml:
+    outputs:
+      simulation_1:
+        dataSets:
+          data_set_BE: QUEUED
+          data_set_Cdc20: QUEUED
+          data_set_Cdc20a: QUEUED
+          data_set_Cdh1: QUEUED
+          data_set_Clb: QUEUED
+          data_set_Cln: QUEUED
+          data_set_IE: QUEUED
+          data_set_Mcm: QUEUED
+          data_set_Mih1a: QUEUED
+          data_set_PClb: QUEUED
+          data_set_PSwe1: QUEUED
+          data_set_PSwe1M: QUEUED
+          data_set_PTrim: QUEUED
+          data_set_SBF: QUEUED
+          data_set_Sic: QUEUED
+          data_set_Swe1: QUEUED
+          data_set_Swe1M: QUEUED
+          data_set_Swe1T: QUEUED
+          data_set_Trim: QUEUED
+          data_set_mass: QUEUED
+          data_set_time: QUEUED
+        status: QUEUED
+    status: QUEUED
+    tasks:
+      simulation_1:
+        status: QUEUED
+status: QUEUED

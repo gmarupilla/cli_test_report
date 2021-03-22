@@ -1,0 +1,30 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Vilar-PNAS-2002-minimal-circardian-clock-discrete.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 2 model(s), 2 simulation(s), 2 task(s), 2  report(s), and 2 plot(s)
+
+Successful translation: SED-ML file simulation.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='tsk_1_0') is compatible, solver match found in ontology: 'KISAO:0000027' matched to StochGibson
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp6118914628172603800.xml
+Task (id='tsk_1_1') is compatible, solver match found in ontology: 'KISAO:0000027' matched to StochGibson
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp2717223991055088934.xml
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock-discrete_ODE_stochastic' Task 'tsk_1_0'.
+-----------------------------------------------------------------------------------------------------
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock-discrete_ODE_stochastic_0' Task 'tsk_1_1'.
+-----------------------------------------------------------------------------------------------------
+Ignoring unsupported output plot2d_Fig_1_c
+Ignoring unsupported output plot2d_low_delta_R_stoch
+Generating report report_Fig_1_c
+Generating report report_low_delta_R_stoch
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/Vilar-PNAS-2002-minimal-circardian-clock-discrete.omex'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

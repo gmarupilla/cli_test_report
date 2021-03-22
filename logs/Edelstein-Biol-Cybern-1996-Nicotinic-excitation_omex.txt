@@ -1,0 +1,25 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Edelstein-Biol-Cybern-1996-Nicotinic-excitation.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 0 plot(s)
+
+Successful translation: SED-ML file BIOMD0000000002_sim.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='BIOMD0000000002_sim') is compatible, solver match found in ontology: 'KISAO:0000088' matched to CVODE
+SBML Import: no assignment rules.
+SBML Import: no assignment rules.
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp6662699987383341654.xml
+Succesful execution: Model 'Edelstein-Biol-Cybern-1996-Nicotinic-excitation_BIOMD0000000002' Task 'BIOMD0000000002_sim'.
+-----------------------------------------------------------------------------------------------------
+Generating report BIOMD0000000002_sim
+HDF conversion completed in '/Users/akhilteja/projects/virtualCell/vcell/results/out'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

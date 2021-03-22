@@ -1,0 +1,25 @@
+sedDocuments:
+  BIOMD0000000002_sim.sedml:
+    outputs:
+      BIOMD0000000002_sim:
+        dataSets:
+          data_set_A: SUCCEEDED
+          data_set_AL: SUCCEEDED
+          data_set_ALL: SUCCEEDED
+          data_set_B: SUCCEEDED
+          data_set_BL: SUCCEEDED
+          data_set_BLL: SUCCEEDED
+          data_set_D: SUCCEEDED
+          data_set_DL: SUCCEEDED
+          data_set_DLL: SUCCEEDED
+          data_set_I: SUCCEEDED
+          data_set_IL: SUCCEEDED
+          data_set_ILL: SUCCEEDED
+          data_set_L: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      BIOMD0000000002_sim:
+        status: SUCCEEDED
+status: SUCCEEDED

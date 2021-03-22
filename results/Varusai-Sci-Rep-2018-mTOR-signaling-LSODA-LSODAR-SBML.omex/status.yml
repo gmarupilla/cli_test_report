@@ -1,0 +1,13 @@
+sedDocuments:
+  LSODA.sedml:
+    outputs:
+      report_1_task1:
+        dataSets:
+          data_set_pmTORC1: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      task1:
+        status: SUCCEEDED
+status: SUCCEEDED

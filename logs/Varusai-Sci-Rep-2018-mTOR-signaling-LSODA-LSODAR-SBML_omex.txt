@@ -1,0 +1,19 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Varusai-Sci-Rep-2018-mTOR-signaling-LSODA-LSODAR-SBML.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 0 plot(s)
+
+Successful translation: SED-ML file LSODA.sedml
+-----------------------------------------------------------------------------------------------------
+Task (id='task1') is compatible, solver match found in ontology: 'KISAO:0000560' matched to CVODE
+SBML Import: no assignment rules.
+SBML Import: no assignment rules.
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp2255734951100190839.xml
+Succesful execution: Model 'Varusai-Sci-Rep-2018-mTOR-signaling-LSODA-LSODAR-SBML_model' Task 'task1'.
+-----------------------------------------------------------------------------------------------------
+Generating report report_1_task1
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/Varusai-Sci-Rep-2018-mTOR-signaling-LSODA-LSODAR-SBML.omex'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

@@ -1,0 +1,4 @@
+VCell CLI input archive /Users/akhilteja/projects/uconn/vcell_cli_test_report/archives/WhenACombineArchiveHasMultipleMasterFileSimulatorExecutesNoSedDocuments.omex
+-----------------------------------------------------------------------------------------------------
+More than two master SED-ML's found, error for archive /Users/akhilteja/projects/uconn/vcell_cli_test_report/archives/WhenACombineArchiveHasMultipleMasterFileSimulatorExecutesNoSedDocuments.omex
+Process finished with exit code 1

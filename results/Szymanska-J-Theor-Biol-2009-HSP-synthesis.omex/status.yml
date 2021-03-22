@@ -1,0 +1,21 @@
+sedDocuments:
+  BIOMD0000000896_sim.sedml:
+    outputs:
+      BIOMD0000000896_sim:
+        dataSets:
+          data_set_HSE: SUCCEEDED
+          data_set_HSF: SUCCEEDED
+          data_set_HSF_3: SUCCEEDED
+          data_set_HSF_3_HSE: SUCCEEDED
+          data_set_Hsp70: SUCCEEDED
+          data_set_Hsp70_HSF: SUCCEEDED
+          data_set_Hsp70_S: SUCCEEDED
+          data_set_S: SUCCEEDED
+          data_set_mRNA: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      BIOMD0000000896_sim:
+        status: SUCCEEDED
+status: SUCCEEDED

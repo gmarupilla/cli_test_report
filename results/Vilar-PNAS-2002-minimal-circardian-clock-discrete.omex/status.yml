@@ -1,0 +1,60 @@
+sedDocuments:
+  simulation.sedml:
+    outputs:
+      plot2d_Fig_1_c:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      plot2d_low_delta_R_stoch:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      report_Fig_1_c:
+        dataSets:
+          dataSet_4_0: SUCCEEDED
+          dataSet_4_1: SUCCEEDED
+          dataSet_4_2: SUCCEEDED
+          dataSet_4_3: SUCCEEDED
+          dataSet_4_4: SUCCEEDED
+          dataSet_4_5: SUCCEEDED
+          dataSet_4_6: SUCCEEDED
+          dataSet_4_7: SUCCEEDED
+          dataSet_4_8: SUCCEEDED
+          dataSet_4_time: SUCCEEDED
+        status: SUCCEEDED
+      report_low_delta_R_stoch:
+        dataSets:
+          dataSet_5_0: SUCCEEDED
+          dataSet_5_1: SUCCEEDED
+          dataSet_5_2: SUCCEEDED
+          dataSet_5_3: SUCCEEDED
+          dataSet_5_4: SUCCEEDED
+          dataSet_5_5: SUCCEEDED
+          dataSet_5_6: SUCCEEDED
+          dataSet_5_7: SUCCEEDED
+          dataSet_5_8: SUCCEEDED
+          dataSet_5_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      tsk_1_0:
+        status: SUCCEEDED
+      tsk_1_1:
+        status: SUCCEEDED
+status: SUCCEEDED

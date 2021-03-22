@@ -1,0 +1,21 @@
+sedDocuments:
+  BIOMD0000000912_sim.sedml:
+    outputs:
+      BIOMD0000000912_sim:
+        dataSets:
+          data_set_E: SUCCEEDED
+          data_set_I: SUCCEEDED
+          data_set_T: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+      plot_1:
+        curves:
+          plot_1_E_time: SKIPPED
+          plot_1_I_time: SKIPPED
+          plot_1_T_time: SKIPPED
+        status: SKIPPED
+    status: SUCCEEDED
+    tasks:
+      BIOMD0000000912_sim:
+        status: SUCCEEDED
+status: SUCCEEDED

@@ -1,0 +1,21 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Szymanska-J-Theor-Biol-2009-HSP-synthesis.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 0 plot(s)
+
+Successful translation: SED-ML file BIOMD0000000896_sim.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='BIOMD0000000896_sim') is compatible, solver match found in ontology: 'KISAO:0000496' matched to CVODE
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp1533167538132914732.xml
+Succesful execution: Model 'Szymanska-J-Theor-Biol-2009-HSP-synthesis_BIOMD0000000896' Task 'Szymanska2009'.
+-----------------------------------------------------------------------------------------------------
+Generating report BIOMD0000000896_sim
+HDF conversion completed in '/Users/akhilteja/projects/virtualCell/vcell/results/out'
+
+Generating zip Archive for reports

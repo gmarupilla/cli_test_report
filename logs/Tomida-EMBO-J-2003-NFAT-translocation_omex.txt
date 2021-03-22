@@ -1,0 +1,23 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Tomida-EMBO-J-2003-NFAT-translocation.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 0 plot(s)
+
+Successful translation: SED-ML file BIOMD0000000678_sim.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='BIOMD0000000678_sim') is compatible, solver match found in ontology: 'KISAO:0000560' matched to CVODE
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp8712974416783228302.xml
+Succesful execution: Model 'Tomida-EMBO-J-2003-NFAT-translocation_BIOMD0000000678' Task 'MODEL0912160005'.
+-----------------------------------------------------------------------------------------------------
+Generating report BIOMD0000000678_sim
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/Tomida-EMBO-J-2003-NFAT-translocation.omex'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

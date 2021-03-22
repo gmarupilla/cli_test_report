@@ -1,0 +1,114 @@
+sedDocuments:
+  simulation.sedml:
+    outputs:
+      plot2d_Euler_default:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      plot2d_Euler_small_step_size:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      plot2d_Fig_1a:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      plot2d_low_delta_R_det:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      report_Euler_default:
+        dataSets:
+          dataSet_2_0: SUCCEEDED
+          dataSet_2_1: SUCCEEDED
+          dataSet_2_2: SUCCEEDED
+          dataSet_2_3: SUCCEEDED
+          dataSet_2_4: SUCCEEDED
+          dataSet_2_5: SUCCEEDED
+          dataSet_2_6: SUCCEEDED
+          dataSet_2_7: SUCCEEDED
+          dataSet_2_8: SUCCEEDED
+          dataSet_2_time: SUCCEEDED
+        status: SUCCEEDED
+      report_Euler_small_step_size:
+        dataSets:
+          dataSet_3_0: SUCCEEDED
+          dataSet_3_1: SUCCEEDED
+          dataSet_3_2: SUCCEEDED
+          dataSet_3_3: SUCCEEDED
+          dataSet_3_4: SUCCEEDED
+          dataSet_3_5: SUCCEEDED
+          dataSet_3_6: SUCCEEDED
+          dataSet_3_7: SUCCEEDED
+          dataSet_3_8: SUCCEEDED
+          dataSet_3_time: SUCCEEDED
+        status: SUCCEEDED
+      report_Fig_1a:
+        dataSets:
+          dataSet_0_0: SUCCEEDED
+          dataSet_0_1: SUCCEEDED
+          dataSet_0_2: SUCCEEDED
+          dataSet_0_3: SUCCEEDED
+          dataSet_0_4: SUCCEEDED
+          dataSet_0_5: SUCCEEDED
+          dataSet_0_6: SUCCEEDED
+          dataSet_0_7: SUCCEEDED
+          dataSet_0_8: SUCCEEDED
+          dataSet_0_time: SUCCEEDED
+        status: SUCCEEDED
+      report_low_delta_R_det:
+        dataSets:
+          dataSet_1_0: SUCCEEDED
+          dataSet_1_1: SUCCEEDED
+          dataSet_1_2: SUCCEEDED
+          dataSet_1_3: SUCCEEDED
+          dataSet_1_4: SUCCEEDED
+          dataSet_1_5: SUCCEEDED
+          dataSet_1_6: SUCCEEDED
+          dataSet_1_7: SUCCEEDED
+          dataSet_1_8: SUCCEEDED
+          dataSet_1_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      tsk_0_0:
+        status: SUCCEEDED
+      tsk_0_1:
+        status: SUCCEEDED
+      tsk_0_2:
+        status: SUCCEEDED
+      tsk_0_3:
+        status: SUCCEEDED
+status: SUCCEEDED

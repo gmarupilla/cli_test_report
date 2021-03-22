@@ -1,0 +1,16 @@
+sedDocuments:
+  BIOMD0000000678_sim.sedml:
+    outputs:
+      BIOMD0000000678_sim:
+        dataSets:
+          data_set_NFAT_dephosphorylated: SUCCEEDED
+          data_set_NFAT_phosphorylated: SUCCEEDED
+          data_set_NFAT_transported: SUCCEEDED
+          data_set_stimulus: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      BIOMD0000000678_sim:
+        status: SUCCEEDED
+status: SUCCEEDED

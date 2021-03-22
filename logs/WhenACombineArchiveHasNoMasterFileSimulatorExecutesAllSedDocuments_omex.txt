@@ -1,0 +1,31 @@
+VCell CLI input archive /Users/akhilteja/projects/uconn/vcell_cli_test_report/archives/WhenACombineArchiveHasNoMasterFileSimulatorExecutesAllSedDocuments.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+Found 2 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 1 plot(s)
+
+Successful translation: SED-ML file vcell_cli_test.sedml
+-----------------------------------------------------------------------------------------------------
+Task (id='tsk_0_0') is compatible, solver match found in ontology: 'KISAO:0000019' matched to CVODE
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp5642320007258137290.xml
+Succesful execution: Model 'WhenACombineArchiveHasNoMasterFileSimulatorExecutesAllSedDocuments_ODE_deterministic' Task 'CVODE'.
+-----------------------------------------------------------------------------------------------------
+Ignoring unsupported output plot2d_CVODE
+Generating report report_CVODE
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/WhenACombineArchiveHasNoMasterFileSimulatorExecutesAllSedDocuments.omex'
+
+Generating zip Archive for reports
+Found 2 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 2  report(s), and 2 plot(s)
+
+Successful translation: SED-ML file vcell_cli_test.sedml
+-----------------------------------------------------------------------------------------------------
+Task (id='tsk_0_0') is compatible, solver match found in ontology: 'KISAO:0000019' matched to CVODE
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp7925020403481468692.xml
+Succesful execution: Model 'WhenACombineArchiveHasNoMasterFileSimulatorExecutesAllSedDocuments_ODE_deterministic' Task 'CVODE'.
+-----------------------------------------------------------------------------------------------------
+Ignoring unsupported output plot2d_CVODE
+Generating report report_CVODE
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/WhenACombineArchiveHasNoMasterFileSimulatorExecutesAllSedDocuments.omex'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

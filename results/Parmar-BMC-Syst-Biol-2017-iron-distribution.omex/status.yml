@@ -1,0 +1,13 @@
+sedDocuments:
+  Parmar2017_Deficient_Rich_tracer.sedml:
+    outputs:
+      simulation_1:
+        dataSets:
+          data_set_FeDuo: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      simulation_1:
+        status: SUCCEEDED
+status: SUCCEEDED

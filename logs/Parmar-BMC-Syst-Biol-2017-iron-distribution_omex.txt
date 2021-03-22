@@ -1,0 +1,19 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Parmar-BMC-Syst-Biol-2017-iron-distribution.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 0 plot(s)
+
+Successful translation: SED-ML file Parmar2017_Deficient_Rich_tracer.sedml
+-----------------------------------------------------------------------------------------------------
+Task (id='simulation_1') is compatible, solver match found in ontology: 'KISAO:0000019' matched to CVODE
+error binding expression 'v': 'v' is either not found in your model or is not allowed to be used in the current context. Check that you have provided the correct and full name (e.g. Ca_Cytosol).
+error binding expression '(k1 * Hepcidin)': 'k1' is either not found in your model or is not allowed to be used in the current context. Check that you have provided the correct and full name (e.g. Ca_Cytosol).
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp1460563263763146821.xml
+Succesful execution: Model 'Parmar-BMC-Syst-Biol-2017-iron-distribution_model' Task 'simulation_1'.
+-----------------------------------------------------------------------------------------------------
+Generating report simulation_1
+HDF conversion completed in '/Users/akhilteja/projects/virtualCell/vcell/results/out'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

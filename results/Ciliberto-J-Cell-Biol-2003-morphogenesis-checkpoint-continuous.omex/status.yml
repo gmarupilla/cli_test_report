@@ -1,0 +1,32 @@
+sedDocuments:
+  simulation_1.sedml:
+    outputs:
+      simulation_1:
+        dataSets:
+          data_set_BE: SUCCEEDED
+          data_set_Cdc20: SUCCEEDED
+          data_set_Cdc20a: SUCCEEDED
+          data_set_Cdh1: SUCCEEDED
+          data_set_Clb: SUCCEEDED
+          data_set_Cln: SUCCEEDED
+          data_set_IE: SUCCEEDED
+          data_set_Mcm: SUCCEEDED
+          data_set_Mih1a: SUCCEEDED
+          data_set_PClb: SUCCEEDED
+          data_set_PSwe1: SUCCEEDED
+          data_set_PSwe1M: SUCCEEDED
+          data_set_PTrim: SUCCEEDED
+          data_set_SBF: SUCCEEDED
+          data_set_Sic: SUCCEEDED
+          data_set_Swe1: SUCCEEDED
+          data_set_Swe1M: SUCCEEDED
+          data_set_Swe1T: SUCCEEDED
+          data_set_Trim: SUCCEEDED
+          data_set_mass: SUCCEEDED
+          data_set_time: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      simulation_1:
+        status: SUCCEEDED
+status: SUCCEEDED

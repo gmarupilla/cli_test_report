@@ -1,0 +1,64 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Vilar-PNAS-2002-minimal-circardian-clock.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 4 model(s), 6 simulation(s), 6 task(s), 6  report(s), and 6 plot(s)
+
+Successful translation: SED-ML file simulation.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='tsk_0_0') is compatible, solver match found in ontology: 'KISAO:0000019' matched to CVODE
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp4319179130013048578.xml
+Task (id='tsk_0_1') is compatible, solver match found in ontology: 'KISAO:0000019' matched to CVODE
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp1079225068160983308.xml
+Task (id='tsk_0_2') is compatible, solver match found in ontology: 'KISAO:0000030' matched to ForwardEuler
+Task (id='tsk_0_3') is compatible, solver match found in ontology: 'KISAO:0000030' matched to ForwardEuler
+Task (id='tsk_1_0') is compatible, solver match found in ontology: 'KISAO:0000027' matched to StochGibson
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp1929510773619794993.xml
+Task (id='tsk_1_1') is compatible, solver match found in ontology: 'KISAO:0000027' matched to StochGibson
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp6329110210803691763.xml
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock_ODE_deterministic' Task 'tsk_0_0'.
+-----------------------------------------------------------------------------------------------------
+Solver status: 3
+Solver message: simulation failed at time=1.3: consider using smaller default or max time step.
+values are:
+A = NaN
+C = Infinity
+PrmA = Infinity
+PrmA_bound = -Infinity
+PrmR = Infinity
+PrmR_bound = -Infinity
+R = -Infinity
+
+Failed execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock_ODE_deterministic' Task 'tsk_0_2'.
+-----------------------------------------------------------------------------------------------------
+final tolerance=0.1 final threshold=0.09, 885 remaining (keepAtMost=1000)
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock_ODE_deterministic' Task 'tsk_0_3'.
+-----------------------------------------------------------------------------------------------------
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock_ODE_deterministic_0' Task 'tsk_0_1'.
+-----------------------------------------------------------------------------------------------------
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock_ODE_stochastic' Task 'tsk_1_0'.
+-----------------------------------------------------------------------------------------------------
+Succesful execution: Model 'Vilar-PNAS-2002-minimal-circardian-clock_ODE_stochastic_0' Task 'tsk_1_1'.
+-----------------------------------------------------------------------------------------------------
+Ignoring unsupported output plot2d_Fig_1a
+Ignoring unsupported output plot2d_low_delta_R_det
+Ignoring unsupported output plot2d_Euler_default
+Ignoring unsupported output plot2d_Euler_small_step_size
+Ignoring unsupported output plot2d_Fig_1_c
+Ignoring unsupported output plot2d_low_delta_R_stoch
+Generating report report_Fig_1a
+Generating report report_low_delta_R_det
+Generating report report_Euler_default
+Generating report report_Euler_small_step_size
+Generating report report_Fig_1_c
+Generating report report_low_delta_R_stoch
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/Vilar-PNAS-2002-minimal-circardian-clock.omex'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0

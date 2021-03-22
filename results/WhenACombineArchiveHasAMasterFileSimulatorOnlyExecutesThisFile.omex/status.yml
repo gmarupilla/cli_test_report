@@ -1,0 +1,64 @@
+sedDocuments:
+  SEDML_1/vcell_cli_test.sedml:
+    outputs:
+      plot2d_CVODE:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      report_CVODE:
+        dataSets:
+          datasetX_time: SUCCEEDED
+          datasetY_0: SUCCEEDED
+          datasetY_1: SUCCEEDED
+          datasetY_2: SUCCEEDED
+          datasetY_3: SUCCEEDED
+          datasetY_4: SUCCEEDED
+          datasetY_5: SUCCEEDED
+          datasetY_6: SUCCEEDED
+          datasetY_7: SUCCEEDED
+          datasetY_8: SUCCEEDED
+        status: SUCCEEDED
+    status: SUCCEEDED
+    tasks:
+      tsk_0_0:
+        status: SUCCEEDED
+  SEDML_2/vcell_cli_test.sedml:
+    outputs:
+      plot2d_CVODE:
+        curves:
+          curve_0: SKIPPED
+          curve_1: SKIPPED
+          curve_2: SKIPPED
+          curve_3: SKIPPED
+          curve_4: SKIPPED
+          curve_5: SKIPPED
+          curve_6: SKIPPED
+          curve_7: SKIPPED
+          curve_8: SKIPPED
+        status: SKIPPED
+      report_CVODE:
+        dataSets:
+          datasetX_time: QUEUED
+          datasetY_0: QUEUED
+          datasetY_1: QUEUED
+          datasetY_2: QUEUED
+          datasetY_3: QUEUED
+          datasetY_4: QUEUED
+          datasetY_5: QUEUED
+          datasetY_6: QUEUED
+          datasetY_7: QUEUED
+          datasetY_8: QUEUED
+        status: QUEUED
+    status: QUEUED
+    tasks:
+      tsk_0_0:
+        status: QUEUED
+status: SUCCEEDED

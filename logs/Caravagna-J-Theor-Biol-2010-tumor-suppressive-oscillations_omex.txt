@@ -1,0 +1,31 @@
+VCell CLI input archive /Users/akhilteja/projects/virtualCell/vcell/sample_omex_files/Caravagna-J-Theor-Biol-2010-tumor-suppressive-oscillations.omex
+-----------------------------------------------------------------------------------------------------
+Installing the required PIP packages..
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Found 1 SED-ML document(s) with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s), and 1 plot(s)
+
+Successful translation: SED-ML file BIOMD0000000912_sim.sedml
+-----------------------------------------------------------------------------------------------------
+SED-ML version level not supported, import may fail
+SED-ML version level not supported, import may fail
+Unsupported version, import may fail
+Task (id='BIOMD0000000912_sim') is compatible, solver match found in ontology: 'KISAO:0000019' matched to CVODE
+SBML Import: no assignment rules.
+SBML Import: no assignment rules.
+LOGGER: msgLevel=MediumPriority, msgType=OverallWarning, Issues encountered during SBML Import:
+- WARNING: The imported model has one or more reactions that have ids/names that are longer than 64 characters. 
+
+User is STRONGLY recommeded to shorten the names to avoid problems with the length of expressions these names might be used in.
+
+Succesful model import: SBML file /var/folders/tq/d1wknkfs3gjgqjpqnvnv8p0w0000gn/T/temp7972308476492556862.xml
+Succesful execution: Model 'Caravagna-J-Theor-Biol-2010-tumor-suppressive-oscillations_BIOMD0000000912' Task 'Caravagna2010'.
+-----------------------------------------------------------------------------------------------------
+Ignoring unsupported output plot_1
+Generating report BIOMD0000000912_sim
+HDF conversion completed in '/Users/akhilteja/projects/uconn/vcell_cli_test_report/results/Caravagna-J-Theor-Biol-2010-tumor-suppressive-oscillations.omex'
+
+Generating zip Archive for reports
+
+Process finished with exit code 0
