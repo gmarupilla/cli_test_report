@@ -1,0 +1,20 @@
+name: Validate 'setup-singularity'
+
+on:
+  push:
+    branches:
+      - master
+    
+jobs:
+  run-sim:
+    name: Run singularity
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Singularity 
+        uses: eWaterCycle/setup-singularity@v5
+        with:
+          singularity-version: 3.6.4
+      - name: Run a singularity container
+        run: singularity -v run docker://alpine cat /etc/os-release
