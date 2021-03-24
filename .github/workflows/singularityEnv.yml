@@ -16,7 +16,10 @@ jobs:
         uses: eWaterCycle/setup-singularity@v5
         with:
           singularity-version: 3.6.4
-      - name: Run a singularity container
+      - name: Build a singularity container
+        run: singularity build vcell.img docker://ghcr.io/biosimulators/biosimulators_vcell/vcell
+
+      - name: Run a singularity   
         run: |
-          singularity build vcell.img docker://ghcr.io/biosimulators/biosimulators_vcell/vcell
+          ls
           singularity run vcell.img -v
