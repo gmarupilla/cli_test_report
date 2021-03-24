@@ -17,4 +17,6 @@ jobs:
         with:
           singularity-version: 3.6.4
       - name: Run a singularity container
-        run: singularity -v run docker://alpine cat /etc/os-release
+        run: |
+          singularity build vcell.img docker://ghcr.io/biosimulators/biosimulators_vcell/vcell
+          singularity run vcell.img -v
